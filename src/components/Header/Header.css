@@ -1,0 +1,59 @@
+.flex_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+}
+.flex_header .logo_flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.flex_header .logo_flex .Menu{
+  cursor: pointer;
+}
+.flex_header .input_flex{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.flex_header .input_flex{
+  width: 35%;
+  cursor: pointer;
+}
+.flex_header .input_flex .inp_box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.82);
+}
+.flex_header .input_flex .inp_box input{
+  width: 100%;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-right: 1px solid rgba(128, 128, 128, 0.764);
+}
+.flex_header .input_flex .inp_box img{
+  padding: 3px 10px;
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.063);
+}
+
+.flex_header .avatar_flex{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+@media (max-width: 490px) {
+  .flex_header .avatar_flex{
+  display: none;
+}
+.flex_header .input_flex{
+  width: 55%;
+}
+.flex_header .input_flex .mic{
+  display: none;
+}
+}

@@ -1,0 +1,28 @@
+.homepage{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  background-color: rgb(243, 243, 243);
+  margin-left: 16%;
+}
+
+@media (max-width:1133px) {
+.homepage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(243, 243, 243);
+  margin-left: 6%;
+}
+}
+@media (max-width:590px) {
+.homepage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(243, 243, 243);
+  margin-left: 6%;
+  padding-top: 20px;
+}
+}
