@@ -4,7 +4,7 @@
   margin-bottom: 40px;
   position: relative;
   transition: .6s;
-  border: 1px solid rgba(128, 128, 128, 0.131);
+  border: 1px solid rgba(128, 128, 128, 0.165);
   border-radius: 5px;
 }
 .videoCard:hover{
@@ -35,9 +35,17 @@
   color: rgb(70, 70, 70);
   cursor: pointer;
 }
+@media (max-width:470px) {
+ .videoCard{
+  width: 97%;
+  margin: auto;
+  margin-bottom: 40px;
+  position: relative;
+} 
+}
 @media (max-width:450px) {
  .videoCard{
-  width: 80%;
+  width: 97%;
   margin: auto;
   margin-bottom: 40px;
   position: relative;
